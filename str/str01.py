@@ -153,6 +153,8 @@ temp = temp.zfill(2)
 # temp='01'
 
 temp = "1"
-temp = temp.rjust(s,"!")
+temp = temp.rjust(5,"!")
+# temp='!!!!1'
+# 내가 원하는 문자로 채울 수 있다
 
 print(f"{temp=}")
