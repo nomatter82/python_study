@@ -1,4 +1,5 @@
 import math
+from unicodedata import decimal
 # 파이썬이 기본적으로 가지고 있는 라이브러리
 # 표준 라이브러리
 # temp=7
@@ -19,7 +20,7 @@ temp = 1 / 0
 temp = 1.1 + 0.1
 # 실수 중에서 2진수로 계산할 수 없는 숫자는 근사값이 나온다
 
-temp = Decimal('1.1') + Decimal('0.1')
+temp = decimal('1.1') + decimal('0.1')
 temp = float(temp)
 # Decimal을 사용하면 정확한 실수 값을 계산할 수 있다
 # but 자리수가 한정되어 있다
