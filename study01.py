@@ -60,9 +60,13 @@
 #         print("3이다")
 #     elif data == 4:
 #         print("4다")
-#     else data == 5:
+#     else:
 #         print("모르겠다")
         
    
 # while True:
 #     check_data
+
+num : int = 1
+
+num = "hjk"
