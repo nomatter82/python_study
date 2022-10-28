@@ -1,7 +1,24 @@
+
 from animal import Animal
+from Dog import Dog
 
-new_animal = Animal(0)
+Animal.hello()
 
-new_animal.eat()
+print()
 
-new_animal.get_age()
+a = Animal(12)
+b = Dog("멍", 5)
+
+a.eat()
+b.eat()
+
+print()
+
+a.get_age()
+b.get_age()
+
+
+print()
+
+Animal.get_count()
+Dog.get_count() 
